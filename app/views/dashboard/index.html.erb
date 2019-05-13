@@ -1,0 +1,19 @@
+<p>
+  <%= link_to 'Shop', shop_index_path %>
+</p>
+
+<p>
+  Balance: Rp. <%= @user.balance %>  
+</p>
+
+<p>
+  Welcome!
+  You have successfully created your wallet.
+  You can top up your wallet by transferring to the following bank:
+</p>
+
+<p>
+  <b>Bank Name</b> BCA
+  <b>Account Number</b> 1030612105678075
+  <b>Unique ID</b> <%= @user.id%>
+</p>
